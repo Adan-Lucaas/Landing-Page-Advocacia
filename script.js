@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- MÁSCARA DE TELEFONE ---
     telefoneInput.addEventListener('input', (e) => {
         let value = e.target.value.replace(/\D/g, ''); // Remove tudo que não é dígito
+        value = value.substring(0, 11); // Limita a 11 dígitos (DDD + celular)
         value = value.replace(/^(\d{2})(\d)/g, '($1) $2'); // Coloca parênteses em volta dos dois primeiros dígitos
         value = value.replace(/(\d{5})(\d)/, '$1-$2'); // Coloca hífen entre o quinto e o sexto dígitos
         e.target.value = value;
