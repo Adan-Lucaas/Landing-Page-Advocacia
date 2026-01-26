@@ -9,3 +9,6 @@ Uma interface institucional elegante voltada para advogados, destacando especial
 
 ## 🔗 Demonstração
 [Clique aqui para ver o projeto online](https://adan-lucaas.github.io/Landing-Page-Advocacia/) 
+
+---
+Desenvolvido por **Luccas Souza** 🚀
